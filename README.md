@@ -96,13 +96,14 @@ Placeholder for the system architecture diagram showing:
 ---
 
 ## Images of Books
-1. PRIDE, and PREJUDICE: ![PRIDE, and PREJUDICE](images/pride_prejudice.png)
-2. Middlemarch: ![Middlemarch](images/Middlemarch.png)
-3. A Room With A View: ![A Room With A View](images/a_room_with_a_view.png)
-4. Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades: ![Vida De Lazarillo De Tormes](images/vida_de_lazarillo_de_tormes_y_de_sus_fortunas_y_adversidades.png)
-5. Los cuatro jinetes del apocalipsis: ![Los cuatro jinetes del apocalipsis](images/los_cuatro_jinetes_del_apocalipsis.png)
-6. Cranford: ![Cranford](images/cranford.png)
-7. History of Tom Jones: ![History of Tom Jones](images/history_of_tom_jones.png)
+1. <img src="images/pride_prejudice.png" alt="PRIDE, and PREJUDICE" width="150">
+2. <img src="images/Middlemarch.png" alt="Middlemarch" width="150">
+3. <img src="images/a_room_with_a_view.png" alt="A Room With A View" width="150">
+4. <img src="images/vida_de_lazarillo_de_tormes_y_de_sus_fortunas_y_adversidades.png" alt="Vida De Lazarillo De Tormes" width="150">
+5. <img src="images/los_cuatro_jinetes_del_apocalipsis.png" alt="Los cuatro jinetes del apocalipsis" width="150">
+6. <img src="images/cranford.png" alt="Cranford" width="150">
+7. <img src="images/history_of_tom_jones.png" alt="History of Tom Jones" width="150">
+
 
 
 ---
