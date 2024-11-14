@@ -152,11 +152,11 @@ if __name__ == "__main__":
     print("\nListing all segment IDs and titles:")
     list_segment_ids_and_titles()
 
-    print("\nFinding most similar chunks to segment ID 468:")
-    most_similar_chunks_with_text(segment_id=468)
+    print("\nFinding most similar chunks to segment ID 478:")
+    most_similar_chunks_with_text(segment_id=478)
 
-    print("\nFinding most dissimilar chunks to segment ID 468:")
-    most_dissimilar_chunks_with_text(segment_id=468)
+    print("\nFinding most dissimilar chunks to segment ID 478:")
+    most_dissimilar_chunks_with_text(segment_id=478)
 
-    print("\nComparing 'History of Tom Jones' with 'Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades':")
-    compare_books("History of Tom Jones", "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades")
+    print("\nComparing 'A Room With A View' with 'Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades':")
+    compare_books("A Room With A View", "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades")

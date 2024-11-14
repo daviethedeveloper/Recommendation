@@ -1,7 +1,3 @@
-Here’s a clean and updated version of your `README.md`, including summaries for each book, formatted cleanly with both text and images integrated:
-
----
-
 # Book Recommendation System
 
 ## Summary of the Project
@@ -71,15 +67,15 @@ This project leverages text embeddings to compare and recommend books based on s
 
 3. **Amor y Pedagogía**
    - *Summary:* Miguel de Unamuno’s philosophical novel humorously critiques the idea of scientifically raising a "perfect" human, blending satire with deep introspection.
-   - <img src="images/a_room_with_a_view.png" alt="Amor y Pedagogía" width="150">
+   - <img src="images/amor_y_pegadogia.png" alt="Amor y Pedagogía" width="150">
 
 4. **EL SOMBRERO DE TRES PICOS**
    - *Summary:* Pedro Antonio de Alarcón’s novella is a lighthearted romantic comedy about misunderstandings and courtship in a small Spanish town.
-   - <img src="images/a_room_with_a_view.png" alt="EL SOMBRERO DE TRES PICOS" width="150">
+   - <img src="images/el_sombrero_de_tres_picos.png" alt="EL SOMBRERO DE TRES PICOS" width="150">
 
 5. **La prueba**
    - *Summary:* A tale of love, deception, and societal expectations, La prueba explores human emotions through the lens of Spanish traditions.
-   - <img src="images/a_room_with_a_view.png" alt="La prueba" width="150">
+   - <img src="images/la_prueba.png" alt="La prueba" width="150">
 
 ---
 
@@ -170,6 +166,80 @@ Placeholder for the system architecture diagram showing:
 
 ---
 
+## Dataset Insights and Comparisons
+
+### 1. Most Similar Chunks to Segment ID 468
+**Segment ID 468 belongs to the book: "History of Tom Jones"**
+
+- **Most Similar Chunks:**
+  1. Title: *History of Tom Jones*, Chunk Index: 158, Similarity: 0.351660
+     > *"unheard. Allworthy stood silent a moment, and then, embracing Jones, he said, with tears gushing fr..."*
+  2. Title: *History of Tom Jones*, Chunk Index: 146, Similarity: 0.358514
+     > *"especially when the gentleman is your nearest relation; but, sir, you must not be angry with me, you..."*
+  3. Title: *History of Tom Jones*, Chunk Index: 159, Similarity: 0.359522
+     > *"their expectations, her ladyship should have accepted his offer; but confessed that he had been guilty..."*
+  4. Title: *History of Tom Jones*, Chunk Index: 155, Similarity: 0.382054
+     > *"thousand times heard me call the young man to whom you are so faithful a friend, my son. Little did..."*
+  5. Title: *History of Tom Jones*, Chunk Index: 132, Similarity: 0.389852
+     > *"that you already had the legal right you mention; nay, that we had for many years composed that mons..."*
+
+---
+
+### 2. Most Dissimilar Chunks to Segment ID 468
+
+- **Most Dissimilar Chunks:**
+  1. Title: *Amor y Pedagogía*, Chunk Index: 22, Similarity: 0.748400
+     > *"y cuatro triángulos rectángulos isóceles, tal y como se ve en la adjunta figura en que están marcado..."*
+  2. Title: *Amor y Pedagogía*, Chunk Index: 7, Similarity: 0.712573
+     > *"¡extraña pedagogía! ¿qué se propondrá este hombre?» --¿Dejarle? --¡Sí, dejarle! ¿Ha sido usted algun..."*
+  3. Title: *Amor y Pedagogía*, Chunk Index: 23, Similarity: 0.710322
+     > *"del arroyo y las aguas y no que fueron hechos rodados desde un principio para que mejor resistieran..."*
+  4. Title: *Vida De Lazarillo De Tormes*, Chunk Index: 3, Similarity: 0.709476
+     > *"estómago a escarbar de hambre, viéndose puesto en la dieta pasada. Fue fuera de casa; yo, por consol..."*
+  5. Title: *Los cuatro jinetes del apocalipsis*, Chunk Index: 18, Similarity: 0.708830
+     > *"las futuras conquistas como si fuesen muestras de distinción con que su país iba á favorecer á los d..."*
+
+---
+
+### 3. Comparison Between Books
+
+#### Comparison: *History of Tom Jones* vs. *Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades*
+- **Top 5 Similar Chunks:**
+  1. English Chunk 63 ↔ Spanish Chunk 5, Similarity: 0.518100
+     - English: *"her many a sigh. This Nanny was extremely pretty, and altogether as coy; for she had refused a drawe..."*
+     - Spanish: *"amo en gran recuesta con dos rebozadas mujeres, al parecer de las que en aquel lugar no hacen falta,..."*
+
+  2. English Chunk 78 ↔ Spanish Chunk 5, Similarity: 0.519091
+     - English: *"to the door to attend the coach, from which a young lady and her maid now alighted. These the landla..."*
+     - Spanish: *"amo en gran recuesta con dos rebozadas mujeres, al parecer de las que en aquel lugar no hacen falta,..."*
+
+  3. English Chunk 79 ↔ Spanish Chunk 5, Similarity: 0.521332
+     - English: *"appetite which a fast of twenty-four hours had procured him; but his dinner was no sooner ended than..."*
+     - Spanish: *"amo en gran recuesta con dos rebozadas mujeres, al parecer de las que en aquel lugar no hacen falta,..."*
+
+  4. English Chunk 62 ↔ Spanish Chunk 5, Similarity: 0.537063
+     - English: *"know, a poor base-born child, adopted by him, and treated as his own son, to dare by my follies to d..."*
+     - Spanish: *"amo en gran recuesta con dos rebozadas mujeres, al parecer de las que en aquel lugar no hacen falta,..."*
+
+  5. English Chunk 93 ↔ Spanish Chunk 5, Similarity: 0.542379
+     - English: *"went through all the agonies and miseries of a lying-in (ten times more painful in such a circumstan..."*
+     - Spanish: *"amo en gran recuesta con dos rebozadas mujeres, al parecer de las que en aquel lugar no hacen falta,..."*
+
+---
+
+### 4. Most Similar Chunks to Segment ID 478
+**Segment ID 478 belongs to the book: "A Room With A View"**
+
+- **Most Similar Chunks:**
+  1. Title: *A Room With A View*, Chunk Index: 1, Similarity: 0.328878
+     > *"quite possible that he, too, may be a Socialist. 'Oh, you relieve me,' said Miss Bartlett. 'So you ..."*
+  2. Title: *A Room With A View*, Chunk Index: 11, Similarity: 0.388426
+     > *"from his own remarks. Do you remember that day at lunch when he argued with Miss Alan that liking..."*
+  3. Title: *A Room With A View*, Chunk Index: 27, Similarity: 0.400570
+     > *"discussing Lucy with her. Minnie was fortunately collecting ferns. She opened the discussion with..."*
+
+
+---
 ## Feedback and Questions
 Feel free to open an issue or ask questions in the GitHub repository or the Discord channel. Feedback is highly encouraged!
 
