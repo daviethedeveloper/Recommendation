@@ -95,12 +95,15 @@ Placeholder for the system architecture diagram showing:
 
 ---
 
-## Images of Books Placeholder
-1. PRIDE, and PREJUDICE: ![Image Placeholder](https://via.placeholder.com/150)
-2. Middlemarch: ![Image Placeholder](https://via.placeholder.com/150)
-3. A Room With A View: ![Image Placeholder](https://via.placeholder.com/150)
-4. Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades: ![Image Placeholder](https://via.placeholder.com/150)
-5. Los cuatro jinetes del apocalipsis: ![Image Placeholder](https://via.placeholder.com/150)
+## Images of Books
+1. PRIDE, and PREJUDICE: ![PRIDE, and PREJUDICE](images/pride_prejudice.png)
+2. Middlemarch: ![Middlemarch](images/Middlemarch.png)
+3. A Room With A View: ![A Room With A View](images/a_room_with_a_view.png)
+4. Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades: ![Vida De Lazarillo De Tormes](images/vida_de_lazarillo_de_tormes_y_de_sus_fortunas_y_adversidades.png)
+5. Los cuatro jinetes del apocalipsis: ![Los cuatro jinetes del apocalipsis](images/los_cuatro_jinetes_del_apocalipsis.png)
+6. Cranford: ![Cranford](images/cranford.png)
+7. History of Tom Jones: ![History of Tom Jones](images/history_of_tom_jones.png)
+
 
 ---
 
